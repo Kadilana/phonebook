@@ -1,0 +1,19 @@
+.contain {
+    height: 100vh;
+}
+.contained {
+    display: flex;
+    gap: 60%;
+}
+.top {
+    display: flex;
+    gap: 2em;
+}
+.top span img:hover, .hvr:hover, .topp span img:hover {
+    cursor: pointer;
+}
+
+.topp {
+    display: flex;
+    margin-left: 77%;
+}
