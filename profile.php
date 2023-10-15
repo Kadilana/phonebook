@@ -14,10 +14,10 @@
         <div class="topp mb-3">
             <div class="btn-group dropright">
                 <span data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img src="images/list.png">
+                    <img src="icons/list.png">
                 </span>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <a class="dropdown-item" href="index.php?user=<?=$user;?>">Home</a>
+                    <a class="dropdown-item" href="home.php?user=<?=$user;?>">Home</a>
                     <a class="dropdown-item" href="profile.php?user=<?=$user;?>">Profile</a>
                     <a class="dropdown-item" href="logout.php?user=<?=$user;?>">Log out</a>
                 </div>

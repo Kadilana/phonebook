@@ -32,16 +32,16 @@
                         <td><?=$contact['email'];?></td>
                         <td>
                             <a class="mx-1" href="tel: <?=$contact['phone_no'];?>">
-                                <img src="images/call.png" class="border border-white rounded-circle bg-info p-1">
+                                <img src="icons/call.png" class="border border-white rounded-circle bg-info p-1">
                             </a>
                             <a class="mx-1" href="home.php?user=<?=$user;?>&edit_id=<?=$contact['id'];?>">
-                                <img src="images/edit.png">
+                                <img src="icons/edit.png">
                             </a>
                             <a class="mx-1" href="process/user-data-process.php?user=<?=$user;?>&del_id=<?=$contact['id'];?>">
-                                <img src="images/delete.png">
+                                <img src="icons/delete.png">
                             </a>
                             <a class="mx-1 hvr" href="home.php?user=<?=$user;?>&shared=<?=$contact['id'];?>">
-                                <img src="images/share.png">
+                                <img src="icons/share.png">
                             </a>
                         </td>
                     </tr>
