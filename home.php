@@ -1,4 +1,7 @@
-<?php include "includes/query.php"; ?>
+<?php 
+    require "includes/auth-guest.php";
+    include "includes/query.php";
+?>
 
 <!DOCTYPE html>
 <html lang="en">

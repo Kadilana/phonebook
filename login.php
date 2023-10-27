@@ -1,5 +1,5 @@
 <?php
-    include "includes/auth-midware.php";
+    require "includes/auth-midware.php";
 ?>
 
 <!DOCTYPE html>
