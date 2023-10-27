@@ -10,7 +10,6 @@ CREATE TABLE users (
     phone_no TEXT
 );
 
-
 CREATE TABLE contacts (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
@@ -25,7 +24,7 @@ CREATE TABLE share (
     share_from VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
     share_to VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
     at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
-    status TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL DEFAULT 'pending',
+    status VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL DEFAULT 'pending',
     shared INT NOT NULL,
     FOREIGN KEY (shared) REFERENCES contacts(id) ON DELETE CASCADE ON UPDATE CASCADE
 );

@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect('localhost','root','','contact-php');
+$conn = mysqli_connect('localhost','root','','contact_php');
 
 if(!$conn)
 {
